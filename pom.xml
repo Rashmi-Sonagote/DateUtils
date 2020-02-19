@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>dateUtils</name>
   <url>https://vodafone.com</url>
+  <distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/Rashmi-Sonagote/DateUtils</url>
+			</repository>
+		<!--<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/Rashmi-Sonagote/DateUtils</url>
+		</snapshotRepository>-->
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
